@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Cow defense.data.unityweb",
+"asmCodeUrl": "Cow defense.asm.code.unityweb",
+"asmMemoryUrl": "Cow defense.asm.memory.unityweb",
+"asmFrameworkUrl": "Cow defense.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
