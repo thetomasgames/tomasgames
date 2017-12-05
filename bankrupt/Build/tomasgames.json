@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "tomasgames.data.unityweb",
+"asmCodeUrl": "tomasgames.asm.code.unityweb",
+"asmMemoryUrl": "tomasgames.asm.memory.unityweb",
+"asmFrameworkUrl": "tomasgames.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
