@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="icon" href="favicon.png" >
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Tomas Games</title>
+        <style>
+            html,body,iframe{
+                height:100%;
+                width:100%;
+                overflow: hidden;
+            }
+
+            .footer{
+                display: none;
+            }
+        </style>
+        <script>
+            function changeUrl(url) {
+                if (!document.getElementById("iframe").src.toString().endsWith(url)) {
+                    document.getElementById("iframe").src = url;
+                }
+            }
+        </script>
+
+        <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+    </head>
+    <body >
+        <div class="w3-sidebar w3-bar-block w3-black w3-card-2" style="width:160px">
+            <button class="w3-bar-item w3-button tablink" style="font-size: 1.1em"
+                    onclick="changeUrl('tomasGames.html')">Tomas Games</button>
+            <button class="w3-bar-item w3-button tablink"
+                    onclick="changeUrl('bumpbump/index.html')">Bump Bump
+            </button>
+            <button class="w3-bar-item w3-button tablink"
+                    onclick="changeUrl('skaterun/index.html')">Skate Run
+            </button> 
+			<button class="w3-bar-item w3-button tablink"
+                    onclick="changeUrl('cowdefense/index.html')">Cow defense
+            </button>
+			<button class="w3-bar-item w3-button tablink"
+                    onclick="changeUrl('bankrupt/index.html')">Bankrupt
+            </button>
+			<button class="w3-bar-item w3-button tablink"
+                    onclick="changeUrl('dangerouspath/index.html')">Dangerous Path
+            </button>
+        </div>
+
+        <iframe  id="iframe" src="tomasGames.html"
+                 style="border-width: 0 0 0 160px">
+        </iframe>
+    </body>
+</html>

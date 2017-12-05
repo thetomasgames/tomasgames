@@ -1,9 +1,9 @@
 {
 "TOTAL_MEMORY": 268435456,
-"dataUrl": "Bankrupt.data.unityweb",
-"asmCodeUrl": "Bankrupt.asm.code.unityweb",
-"asmMemoryUrl": "Bankrupt.asm.memory.unityweb",
-"asmFrameworkUrl": "Bankrupt.asm.framework.unityweb",
+"dataUrl": "bankrupt.data.unityweb",
+"asmCodeUrl": "bankrupt.asm.code.unityweb",
+"asmMemoryUrl": "bankrupt.asm.memory.unityweb",
+"asmFrameworkUrl": "bankrupt.asm.framework.unityweb",
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20"
 }
